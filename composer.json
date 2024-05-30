@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "sf7kmmr/sms-service",
+  "description": "service for sending sms",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "sf7kmmr",
+      "email": "sf7kmmr@gmail.com"
+    } 
+  ],
+  "require": {
+  },
+    "autoload": {
+        "psr-4": {
+        "Sf7kmmr\\SmsService\\": "src/"
+        }
+    }
+}
